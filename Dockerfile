@@ -1,7 +1,7 @@
-FROM xhofe/alist:latest
+FROM openlistteam/openlist:latest
 LABEL MAINTAINER="i@nn.ci"
-WORKDIR /opt/alist/
+WORKDIR /opt/openlist/
 
 EXPOSE 5244
 
-CMD [ "./alist", "server", "--no-prefix" ]
+CMD [ "./openlist", "server", "--no-prefix" ]
