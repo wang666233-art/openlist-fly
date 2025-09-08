@@ -3,7 +3,7 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "moeyy-alist-v2"
+app = "openlist"
 kill_signal = "SIGINT"
 kill_timeout = 5
 primary_region = "hkg"
@@ -44,5 +44,5 @@ processes = []
     timeout = "2s"
 
   [mounts]
-    destination = "/opt/alist/data"
+    destination = "/opt/openlist/data"
     source = "data"
